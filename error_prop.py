@@ -32,12 +32,12 @@ class paulis_2d:
         for i in range(self.ly):
             for j in range(self.lx):
                 if self.operator[j + self.lx * i]:
-                    if self.operator[j + self.lx * i + self.lx * self.ly - 1]:
+                    if self.operator[j + self.lx * i + self.lx * self.ly]:
                         content += "Y "
                     else:
                         content += "X "
                 else:
-                    if self.operator[j + self.lx * i + self.lx * self.ly - 1]:
+                    if self.operator[j + self.lx * i + self.lx * self.ly]:
                         content += "Z "
                     else:
                         content += "I "
