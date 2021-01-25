@@ -1,0 +1,10 @@
+std::vector<int> noise_stephens_standard_gateerror(int L, int M, int N, double p, std::function<double()> rand);
+std::vector<int> noise_RHG_error_model1_local_depolarizing(int L, int M, int N, double p, std::function<double()> rand);
+std::vector<int> noise_single_emitter(int L, int M, int N, double p, std::function<double()> rand);
+std::vector<int> smallZ_vec(int L, int M, int N, double p, std::function<double()> rand);
+std::vector<int> big_loss(int L, int M, int N, double p_loss, std::function<double()> rand);
+std::vector<int> small_loss_vec(int L, int M, int N, double p_loss, std::function<double()> rand);
+void standardNoise_bcc(int L, int M, int N, double p, vector<int> &Z_vec, std::function<double()> rand);
+void quasistandardNoise_bcc(int L, int M, int N, double p, vector<int> &Z_vec, std::function<double()> rand);
+void dephasingPerBin_bcc(int L, int M, int N, double p, vector<int> &Z_vec, std::function<double()> rand);
+std::vector<std::vector<int>> supercheck_operators_loss_per_time(int L, int M, int N, double rate, std::function<double()> rand);
