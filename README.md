@@ -28,4 +28,4 @@ make
 ```
 
 ## Credits
-The most important code was written by Kianna Wan (kcqyw), who contributed the syndrome decoder including supercheck decoding for heralded loss errors, as well as noise models for Protocols A & B of our [paper](https://arxiv.org/abs/2011.08213). We use the (Blossom V)[https://pub.ist.ac.at/~vnk/papers/blossom5.pdf] algorithm by Vladimir Kolmogorov for minimum weight perfect matching.
+The most important code was written by Kianna Wan (kcqyw), who contributed the syndrome decoder including supercheck decoding for heralded loss errors, as well as noise models for Protocols A & B of our [paper](https://arxiv.org/abs/2011.08213). We use the [Blossom V](https://pub.ist.ac.at/~vnk/papers/blossom5.pdf) algorithm by Vladimir Kolmogorov for minimum weight perfect matching.
